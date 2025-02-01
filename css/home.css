@@ -71,3 +71,49 @@
   width: 34.02%;
   height: auto;
 }
+
+.home__clients {
+  width: 100%;
+  height: 14.81%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clients_text-container {
+  height: 40.30%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.clients_text-container > h2 {
+  text-align: center;
+  margin: 0;
+  font-size: 0.392rem;
+  color: #4D4D4D;
+}
+
+.clients_text-container > p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 0.174rem;
+  color: #717171;
+}
+
+.clients_logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  height: 25.14%;
+}
+
+.clients_logos > img {
+  height: 100%;
+  width: auto;
+}
