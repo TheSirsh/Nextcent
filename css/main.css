@@ -258,3 +258,86 @@
 .calendar__button > img {
   width: 6.44%;
 }
+
+.main__updates {
+  width: 80%;
+  height: 22.64%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__updates > h2 {
+  text-align: center;
+  font-size: 0.39rem;
+  color: #4D4D4D;
+  margin: 0;
+  padding: 0;
+}
+
+.main__updates > p {
+  text-align: center;
+  font-size: 0.174rem;
+  color: #717171;
+  margin: 0;
+  padding: 0;
+  width: 54.64%;
+}
+
+.updates__cards-container {
+  width: 100%;
+  height: 72.16%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.updates__card {
+  height: 100%;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+}
+
+.updates__card > img {
+  width: 100%;
+  height: 77.82%;
+}
+
+.updates__card_text {
+  width: 86.14%;
+  min-height: 48.30%;
+  height: 48.30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #F5F7FA;
+  align-items: center;
+  position: relative;
+  left: 6.93%;
+  bottom: 22.18%;
+}
+
+.updates__card_text > h3 {
+  width: 89.91%;
+  text-align: center;
+  font-size: 0.22rem;
+  color: #717171;
+  margin: 0;
+  padding: 0;
+}
+
+.updates__button {
+  width: 41.24%;
+  height: 25.20%;
+  display: flex;
+  justify-content: space-between;
+  background: none;
+  align-items: center;
+  border: none;
+}
+
+.updates__button :first-child {
+  color: #4CAF4F;
+  font-size: 0.22rem;
+}
