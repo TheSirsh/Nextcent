@@ -137,3 +137,52 @@
   font-size: 0.174rem;
   color: #4D4D4D;
 }
+
+.main__calendar {
+  width: 80%;
+  height: 19.27%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__calendar > img {
+  height: 100%;
+}
+
+.calendar__text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 71.56%;
+}
+
+.calendar__text-container > h2 {
+  padding: 0;
+  margin: 0;
+  width: 90.92%;
+  font-size: 0.39rem;
+  color: #4D4D4D;
+}
+
+.calendar__text-container > p {
+  padding: 0;
+  margin: 0;
+  width: 90.92%;
+  font-size: 0.15rem;
+  color: #717171;
+}
+
+.calendar__button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 22.84%;
+  height: 19.42%;
+  background-color: #4CAF4F;
+  color: #ffffff;
+  font-size: 0.174rem;
+  border: none;
+  border-radius: 2.78px;
+}
